@@ -1,3 +1,59 @@
+/*BEGINNING OF NAVIGATION STYLES*/
+#nav-container {
+    width: 100%;
+    height: 50px;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 23px;
+    padding: 0;
+    float: right;
+    font-family: arial;
+}
+#navbar li {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+#navbar li a {
+    display: block;
+    padding: 8px 9px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+#navbar li a:hover {
+    color: rgb(78, 70, 70);
+    text-decoration: underline;
+}
+#img-btn {
+    background-position: -139px -45px;
+    opacity: .55;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    margin-left: 10px;
+    margin-right: 24px;
+    margin-top: 7px;
+}
+#img-btn:hover {
+    opacity: 1;
+}
+#sign-in {
+    font-weight: 1000;
+    padding: 7px 12px !important;
+    border-radius: 2px;
+    color: white !important;
+    background-color: #4285f4;
+}
+#sign-in:hover {
+    background-color:#356dc7;
+    text-decoration: none !important;
+}
+/*END OF NAVIGATION STYLES*/
+
+/* BEGINNING OF LOGO, SEARCH BAR, BUTTONS STYLES */
 #container {
  
     width: 80%;
@@ -9,10 +65,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 #search-container {
-    width: 500px;
+    width: 570px;
     margin: auto;
     margin-bottom: 30px;
     border-radius: 30px;
@@ -25,28 +81,59 @@ img {
     margin-bottom: 30px;
 }
 .search {
-    width: 420px;
+    width: 490px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     font-size: 15px;
     background-color: transparent;
-    color: rgba(0,0,0,.6);
-    height: 38px;
+    color: rgba(0,0,0,.4);
+    height: 43px;
     border: none;
-    
 }
 [type=button] {
     background-color: #f2f2f2;
     color: #5F6368;
     font-size: 13px;
-    padding: 0 16px;
+    padding: 0 12px;
     height: 36px;
     border: none;
     border-radius: 4px;
     display: inline;
+    border: 1px solid transparent;
+}
+[type=button]:hover {
+    border: 1px solid rgb(201, 196, 196, 0.4);
+    background-color: #f1efef;
+    background-image: linear-gradient(#ffffff,#f2f2f2);
+    color: rgb(65, 66, 68);
 }
 #center {
     width: 272px;
     margin: auto;
 }
+/*END OF LOGO, SEARCHBAR, BUTTONS*/
+
+/*BEGINNING OF FOOTER STYLES*/
+#footer-container {
+    width: 100%;
+    background-color:#f2f2f2;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    font-size: 13px;
+    font-family: arial;
+    border-top: 1px solid rgb(219, 213, 213, 0.7);
+}
+#footer-container a {
+    text-decoration: none;
+    color:#5f6368;
+    display: block;
+    float: left;
+    padding: 10px 15px;
+    margin: auto;
+}
+#footer-container a:hover {
+    text-decoration: underline;
+}
+/*END OF FOOTER STYLES*/
